@@ -2,6 +2,8 @@
 
 ## Author - Shalini G
 
+Hosted URL : https://dice-game-pied-kappa.vercel.app/
+
 Here is a small Javascript Game Project.
 
 This is a simple dice game that can be played with 2 players. Players can roll the dice using the "Roll Dice" button, and the score will be added to the player's current score. If a player clicks the "Hold" button, their current score will be stored in their main score.
