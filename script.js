@@ -78,6 +78,8 @@ btnHold.addEventListener('click',function(){
         document.querySelector(`.player--${activePlayer}`).classList.add('player--winner');
         document.querySelector(`.player--${activePlayer}`).classList.remove('player--active');
         diceHidden.classList.add('hidden');
+        let winner = activePlayer + 1;
+        alert(`player ${winner} is winner!`);   
     }
     else{
         switchPlayer();
